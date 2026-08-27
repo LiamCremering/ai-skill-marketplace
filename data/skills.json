@@ -1,15 +1,18 @@
 [
   {
     "category": "Context Shaping",
+    "llmCompatibility": "Both",
     "skill": "grill-with-docs",
     "ecosystem": "Claude Code, Codex, Cursor, Gemini / Agent Skills",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
-    "installation": "npx skills add mattpocock/skills; npx skills add https://github.com/mattpocock/skills --skill grill-with-docs",
+    "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill grill-with-docs",
     "purpose": "Questions requirements, goals, assumptions and sharpens domain language before implementation."
   },
   {
     "category": "Context Shaping",
+    "llmCompatibility": "Claude only",
     "skill": "Architecture Designer",
     "ecosystem": "Claude Code Skill",
     "origin": "Jeffallan / Jeff Allan; jeffallan/claude-skills",
@@ -19,15 +22,18 @@
   },
   {
     "category": "Context Shaping",
+    "llmCompatibility": "Both",
     "skill": "codebase-design",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill codebase-design",
     "purpose": "Defines module boundaries, deep modules, small interfaces and testable seams."
   },
   {
     "category": "Context Shaping",
+    "llmCompatibility": "Claude only",
     "skill": "/codex:adversarial-review",
     "ecosystem": "Codex Plugin for Claude Code / Codex CLI",
     "origin": "OpenAI; openai/codex-plugin-cc",
@@ -37,42 +43,51 @@
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Both",
     "skill": "/to-spec",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill to-spec",
     "purpose": "Creates a specification from the current discussion and can hand it to issue tracking."
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Both",
     "skill": "/to-tickets",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill to-tickets",
     "purpose": "Breaks plans or specs into actionable tickets with dependencies and blockers."
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Both",
     "skill": "/implement",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill implement",
     "purpose": "Turns specs and tickets into implementation work with verification loops."
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Both",
     "skill": "/tdd",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill tdd",
     "purpose": "Describes red-green-refactor flows and vertical slices with tests."
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Other / tool-specific",
     "skill": "Cursor Agent Review",
     "ecosystem": "Cursor",
     "origin": "Cursor",
@@ -82,6 +97,7 @@
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Other / tool-specific",
     "skill": "Qodo Code Review",
     "ecosystem": "Qodo",
     "origin": "Qodo",
@@ -91,6 +107,7 @@
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Other / tool-specific",
     "skill": "TREX",
     "ecosystem": "Greptile",
     "origin": "Greptile",
@@ -100,6 +117,7 @@
   },
   {
     "category": "Main Flow Shaping",
+    "llmCompatibility": "Other / tool-specific",
     "skill": "GitHub Copilot Code Review",
     "ecosystem": "GitHub Copilot",
     "origin": "GitHub",
@@ -109,15 +127,18 @@
   },
   {
     "category": "Upkeep",
+    "llmCompatibility": "Both",
     "skill": "improve-codebase-architecture",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill improve-codebase-architecture",
     "purpose": "Identifies architecture and refactoring opportunities to avoid a “ball of mud”."
   },
   {
     "category": "Upkeep",
+    "llmCompatibility": "Other / tool-specific",
     "skill": "DeepSource",
     "ecosystem": "DeepSource Platform",
     "origin": "DeepSource",
@@ -127,6 +148,7 @@
   },
   {
     "category": "Upkeep",
+    "llmCompatibility": "Claude only",
     "skill": "/security-review",
     "ecosystem": "Claude Code",
     "origin": "Anthropic / Claude Code",
@@ -136,6 +158,7 @@
   },
   {
     "category": "Upkeep",
+    "llmCompatibility": "Claude only",
     "skill": "Secure Code Guardian",
     "ecosystem": "Claude Code Skill",
     "origin": "Jeffallan / Jeff Allan; jeffallan/claude-skills",
@@ -145,6 +168,7 @@
   },
   {
     "category": "Upkeep",
+    "llmCompatibility": "Both",
     "skill": "Trail of Bits Skills",
     "ecosystem": "Claude Code, Codex-compatible marketplace",
     "origin": "Trail of Bits",
@@ -154,15 +178,18 @@
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Both",
     "skill": "diagnosing-bugs",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill diagnosing-bugs",
     "purpose": "Uses a debugging loop: reproduce, minimize, hypothesize, instrument, fix and regression-test."
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Claude only",
     "skill": "/codex:rescue",
     "ecosystem": "OpenAI Codex Plugin for Claude Code",
     "origin": "OpenAI; openai/codex-plugin-cc",
@@ -172,6 +199,7 @@
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Other / tool-specific",
     "skill": "Continue Agent Mode",
     "ecosystem": "Continue.dev IDE Extension",
     "origin": "Continue.dev",
@@ -181,6 +209,7 @@
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Claude only",
     "skill": "check-pr",
     "ecosystem": "Greptile Agent Skill / Claude Code",
     "origin": "Greptile; greptileai/skills",
@@ -190,6 +219,7 @@
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Claude only",
     "skill": "greploop",
     "ecosystem": "Greptile Agent Skill / Claude Code",
     "origin": "Greptile; greptileai/skills",
@@ -199,38 +229,46 @@
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Both",
     "skill": "Handoff",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill handoff",
     "purpose": "Condenses the current session into a handoff file for later continuation."
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Both",
     "skill": "triage",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill triage",
     "purpose": "Moves issues through a triage state machine with roles and labels."
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Both",
     "skill": "research",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill research",
     "purpose": "Researches questions using primary sources and stores citations in markdown."
   },
   {
     "category": "Productivity",
+    "llmCompatibility": "Both",
     "skill": "wayfinder",
     "ecosystem": "Claude Code, Codex",
     "origin": "Matt Pocock; mattpocock/skills",
     "type": "Community / Third-Party",
     "installation": "npx skills add mattpocock/skills",
+    "individualInstallation": "npx skills add https://github.com/mattpocock/skills --skill wayfinder",
     "purpose": "Used to navigate and orient a project or task in a structured way."
   }
 ]
