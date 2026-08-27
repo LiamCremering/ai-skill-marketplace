@@ -1,5 +1,55 @@
 [
   {
+    "category": "Best Practices",
+    "llmCompatibility": "Both",
+    "skill": "1. Formalize Requirement Analysis",
+    "ecosystem": "Design Best Practice",
+    "origin": "Engineering foundations",
+    "type": "Design",
+    "installation": "Apply before implementation",
+    "purpose": "Define functional and non-functional requirements, user stories, acceptance criteria and business rules before implementation begins."
+  },
+  {
+    "category": "Best Practices",
+    "llmCompatibility": "Both",
+    "skill": "2. Define Architecture Before Implementation",
+    "ecosystem": "Design Best Practice",
+    "origin": "Engineering foundations",
+    "type": "Design",
+    "installation": "Apply before implementation",
+    "purpose": "Establish system boundaries, components, architectural decisions, data flows and integration points before writing code."
+  },
+  {
+    "category": "Best Practices",
+    "llmCompatibility": "Both",
+    "skill": "3. Design Modular & Maintainable Systems",
+    "ecosystem": "Design Best Practice",
+    "origin": "Engineering foundations",
+    "type": "Design",
+    "installation": "Apply during system design",
+    "purpose": "Use separation of concerns, low coupling, high cohesion and reusable components to keep systems understandable and maintainable."
+  },
+  {
+    "category": "Best Practices",
+    "llmCompatibility": "Both",
+    "skill": "4. Define Clear Interfaces & Contracts",
+    "ecosystem": "Design Best Practice",
+    "origin": "Engineering foundations",
+    "type": "Design",
+    "installation": "Apply during system design",
+    "purpose": "Define APIs, data contracts, service boundaries, ownership and communication protocols to enable reliable integration."
+  },
+  {
+    "category": "Best Practices",
+    "llmCompatibility": "Both",
+    "skill": "5. Design for Scalability, Reliability & Observability",
+    "ecosystem": "Design Best Practice",
+    "origin": "Engineering foundations",
+    "type": "Design",
+    "installation": "Apply during system design",
+    "purpose": "Plan for performance, scalability, resilience, recovery, monitoring and logging under real-world conditions."
+  },
+  {
     "category": "Context Shaping",
     "llmCompatibility": "Both",
     "skill": "grill-with-docs",
