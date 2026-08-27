@@ -44,6 +44,24 @@
         color: var(--muted);
         margin: 0;
       }
+      .best-practices { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 24px; margin-bottom: 24px; }
+      .section-kicker { color: var(--accent); font-size: .78rem; font-weight: 700; letter-spacing: .08em; margin: 0 0 6px; text-transform: uppercase; }
+      .best-practices h2 { margin: 0; font-size: 1.5rem; }
+      .best-practices-intro { color: var(--muted); margin: 8px 0 20px; }
+      .practice-tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+      .practice-tab { border: 1px solid #bfd0ff; background: var(--accent-soft); border-radius: 999px; color: var(--accent); font-weight: 700; padding: 8px 14px; }
+      .practice-tab.coming-soon { background: #f8fafc; border-color: var(--line); color: var(--muted); }
+      .practice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+      .practice-card { border: 2px solid #d7dfec; border-radius: 12px; padding: 16px; }
+      .practice-card:last-child { grid-column: 1 / 2; }
+      .practice-heading { display: flex; align-items: center; gap: 10px; }
+      .practice-number { align-items: center; background: #001d78; border-radius: 50%; color: white; display: inline-flex; flex: 0 0 36px; font-size: 1rem; font-weight: 700; height: 36px; justify-content: center; }
+      .practice-heading h3 { color: #001d78; font-size: 1.08rem; margin: 0; }
+      .practice-content { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(150px, .9fr); gap: 18px; margin-top: 14px; }
+      .practice-content p { font-size: .88rem; margin: 0 0 7px; }
+      .practice-content strong { color: #001d78; }
+      .practice-content ul { font-size: .84rem; margin: 0; padding-left: 18px; }
+      .practice-content li::marker { color: var(--accent); }
       .filters {
         display: flex;
         flex-wrap: wrap;
@@ -145,6 +163,10 @@
       }
       .muted { color: var(--muted); }
       @media (max-width: 760px) {
+        .best-practices { padding: 18px; }
+        .practice-grid { grid-template-columns: 1fr; }
+        .practice-card:last-child { grid-column: auto; }
+        .practice-content { grid-template-columns: 1fr; gap: 8px; }
         table, thead, tbody, th, td, tr {
           display: block;
         }
@@ -175,6 +197,38 @@
         <h1>AI Skill Library</h1>
         <p class="subtitle">Übersicht zu AI-Agent-Skills, Review-Tools und Produktivitäts-Workflows.</p>
       </div>
+
+      <section class="best-practices" aria-labelledby="best-practices-title">
+        <p class="section-kicker">Engineering foundations</p>
+        <h2 id="best-practices-title">Best Practices</h2>
+        <p class="best-practices-intro">Design Best Practices für robuste, wartbare und skalierbare Systeme.</p>
+        <div class="practice-tabs" aria-label="Best-Practice-Bereiche">
+          <span class="practice-tab">Design</span>
+          <span class="practice-tab coming-soon">Development · folgt</span>
+        </div>
+        <div class="practice-grid">
+          <article class="practice-card">
+            <div class="practice-heading"><span class="practice-number">1</span><h3>Formalize Requirement Analysis</h3></div>
+            <div class="practice-content"><div><p><strong>Goal:</strong> Define what the system must do before implementation begins.</p><p><strong>Why:</strong> Clear requirements align stakeholders and prevent scope creep, rework, and inconsistent expectations.</p></div><ul><li>Functional requirements</li><li>Non-functional requirements</li><li>User stories</li><li>Acceptance criteria</li><li>Business rules</li></ul></div>
+          </article>
+          <article class="practice-card">
+            <div class="practice-heading"><span class="practice-number">2</span><h3>Define Architecture Before Implementation</h3></div>
+            <div class="practice-content"><div><p><strong>Goal:</strong> Establish the system structure before writing code.</p><p><strong>Why:</strong> Early architectural choices prevent costly redesigns and create guidance for development teams.</p></div><ul><li>System boundaries</li><li>Components</li><li>Architecture decisions</li><li>Data flows</li><li>Integration points</li></ul></div>
+          </article>
+          <article class="practice-card">
+            <div class="practice-heading"><span class="practice-number">3</span><h3>Design Modular &amp; Maintainable Systems</h3></div>
+            <div class="practice-content"><div><p><strong>Goal:</strong> Build systems that are easy to understand, modify, and extend.</p><p><strong>Why:</strong> Well-structured systems reduce complexity and make future changes less risky.</p></div><ul><li>Separation of concerns</li><li>Low coupling</li><li>High cohesion</li><li>Reusable components</li><li>Maintainability</li></ul></div>
+          </article>
+          <article class="practice-card">
+            <div class="practice-heading"><span class="practice-number">4</span><h3>Define Clear Interfaces &amp; Contracts</h3></div>
+            <div class="practice-content"><div><p><strong>Goal:</strong> Enable independent development and reduce integration failures.</p><p><strong>Why:</strong> Clear interfaces establish predictable communication and minimize ambiguity.</p></div><ul><li>APIs</li><li>Data contracts</li><li>Service boundaries</li><li>Ownership</li><li>Communication protocols</li></ul></div>
+          </article>
+          <article class="practice-card">
+            <div class="practice-heading"><span class="practice-number">5</span><h3>Design for Scalability, Reliability &amp; Observability</h3></div>
+            <div class="practice-content"><div><p><strong>Goal:</strong> Ensure the system performs reliably under real-world conditions.</p><p><strong>Why:</strong> Designing for operational quality avoids outages, performance bottlenecks, and difficult troubleshooting.</p></div><ul><li>Performance</li><li>Scalability</li><li>Resilience</li><li>Recovery</li><li>Monitoring &amp; logging</li></ul></div>
+          </article>
+        </div>
+      </section>
 
       <div class="filters" id="filters"></div>
       <div id="content"></div>
