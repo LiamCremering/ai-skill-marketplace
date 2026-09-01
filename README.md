@@ -21,6 +21,8 @@ A curated catalog of AI agent skills, review tools, and productivity workflows, 
 
 An installable Codex plugin that connects requirements, backlog context, implementation evidence, delivery risks, and team follow-up.
 
+The plugin is designed as a centrally managed agent for engineering and delivery teams. All authorized members use the same workflows and rules while connecting their own Microsoft and GitHub accounts. The agent can work with shared SharePoint sites, GitHub repositories, Teams, and Planner plans only within each member's existing permissions. No shared credentials are required.
+
 - [View installation and usage](./plugins/engineering-delivery-orchestrator/)
 - [Open the plugin package](./plugins/engineering-delivery-orchestrator/)
 
