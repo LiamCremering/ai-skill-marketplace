@@ -2,6 +2,20 @@
 
 A curated library of AI agent skills, review tools, and productivity workflows for modern AI coding ecosystems.
 
+## Download the Engineering Delivery Orchestrator
+
+**[Download the installable marketplace bundle (ZIP)](https://github.com/LiamCremering/ai-skill-marketplace/archive/refs/heads/main.zip)**
+
+After downloading, extract the ZIP and register the extracted directory in Codex:
+
+```bash
+codex plugin marketplace add /path/to/ai-skill-marketplace-main
+codex plugin add engineering-delivery-orchestrator@ai-skill-marketplace
+```
+
+Start a new Codex thread and authorize SharePoint, GitHub, and Microsoft Teams with your team's own accounts. The download contains no credentials or inherited permissions.
+
+
 This repository brings together practical capabilities across Claude Code, Codex, Cursor, GitHub Copilot, Greptile, Qodo, and related tooling. The goal is to provide a structured reference for understanding where a skill comes from, how it is installed, and what it is designed to help with in real-world development work.
 
 Each entry includes a practical example so you can quickly decide whether it fits the task in front of you.
