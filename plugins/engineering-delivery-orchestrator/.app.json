@@ -1,0 +1,16 @@
+{
+  "apps": {
+    "sharepoint": {
+      "id": "connector_1e4f6a44acf14e3ca1d96672f8c945bc",
+      "category": "Productivity"
+    },
+    "github": {
+      "id": "connector_76869538009648d5b282a4bb21c3d157",
+      "category": "Developer Tools"
+    },
+    "microsoft-teams": {
+      "id": "connector_246af0940da3457da0e751171dc1ce60",
+      "category": "Communication"
+    }
+  }
+}

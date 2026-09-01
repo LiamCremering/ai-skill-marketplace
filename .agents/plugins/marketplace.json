@@ -1,0 +1,20 @@
+{
+  "name": "ai-skill-marketplace",
+  "interface": {
+    "displayName": "AI Skill Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "engineering-delivery-orchestrator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/engineering-delivery-orchestrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

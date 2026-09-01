@@ -151,3 +151,25 @@ Each entry includes a practical example so you can quickly decide whether it fit
 ## Notes
 
 This repository is intended as a practical shortlist and knowledge base for evaluating AI tooling, rather than a complete inventory of every available skill. It is designed to help teams and individuals quickly understand what a tool is for, where it comes from, and how it fits into a software engineering workflow.
+
+## Engineering Delivery Orchestrator
+
+This repository also contains an installable Codex team plugin for delivery analysis across SharePoint, GitHub, and Microsoft Teams.
+
+### Installation
+
+Clone or download this repository, then register its marketplace from the repository root:
+
+```bash
+git clone https://github.com/LiamCremering/ai-skill-marketplace.git
+codex plugin marketplace add /path/to/ai-skill-marketplace
+codex plugin add engineering-delivery-orchestrator@ai-skill-marketplace
+```
+
+Start a new Codex thread after installation so the plugin and its connected apps are loaded.
+
+### Authorization and permissions
+
+Each team authorizes SharePoint, GitHub, and Microsoft Teams with its own accounts and organizational policies. No credentials or permissions from the plugin publisher are distributed with the plugin.
+
+SharePoint is used as a read-only source. GitHub and Microsoft Teams write actions are limited to resources granted by the installing team's authorization and require explicit user confirmation before execution.

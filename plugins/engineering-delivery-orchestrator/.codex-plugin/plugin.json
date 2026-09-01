@@ -1,0 +1,37 @@
+{
+  "name": "engineering-delivery-orchestrator",
+  "version": "0.1.0",
+  "description": "Connects delivery requirements, backlog context, implementation evidence, and team follow-up.",
+  "author": {
+    "name": "LiamCremering",
+    "url": "https://github.com/LiamCremering"
+  },
+  "homepage": "https://github.com/LiamCremering/ai-skill-marketplace#engineering-delivery-orchestrator",
+  "repository": "https://github.com/LiamCremering/ai-skill-marketplace",
+  "keywords": [
+    "delivery",
+    "engineering",
+    "github",
+    "sharepoint",
+    "teams"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Engineering Delivery Orchestrator",
+    "shortDescription": "Connect requirements, delivery status, and implementation evidence.",
+    "longDescription": "Analyzes delivery requests across SharePoint, GitHub, and Microsoft Teams, identifies evidence gaps and risks, and prepares concrete next steps with controlled write actions.",
+    "developerName": "LiamCremering",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Assess the delivery readiness of this initiative.",
+      "Connect this requirement to issues and code changes.",
+      "Prepare the next delivery steps and open questions."
+    ]
+  }
+}
