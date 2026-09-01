@@ -1,8 +1,8 @@
 # AI Engineering Resource Hub
 
-A structured collection of engineering guidance, AI skills, and installable agents. Each area is maintained separately so teams can use only what they need.
+A focused collection of three engineering deliverables. Each area is maintained separately so teams can use only what they need.
 
-## Collections
+## Deliverables
 
 ### Best Practices
 
@@ -17,19 +17,19 @@ A curated catalog of AI agent skills, review tools, and productivity workflows, 
 - [Browse the Skill Library](./skill-library/)
 - [Open the Skill Library documentation](./skill-library/README.md)
 
-### Agents
+### Engineering Delivery Orchestrator
 
-Installable and reusable agents with their setup, connected apps, authorization model, and download instructions.
+An installable Codex plugin that connects requirements, backlog context, implementation evidence, delivery risks, and team follow-up.
 
-- [Browse Agents and downloads](./agents/)
+- [View installation and usage](./plugins/engineering-delivery-orchestrator/)
+- [Open the plugin package](./plugins/engineering-delivery-orchestrator/)
 
 ## Repository Layout
 
 ```text
-best-practices/   Engineering workflow guidance
-skill-library/    Skill catalog, web view, and catalog data
-agents/           Agent documentation and downloads
-plugins/          Codex plugin packages used by the marketplace
+best-practices/                              Engineering workflow guidance
+skill-library/                               Skill catalog, web view, and catalog data
+plugins/engineering-delivery-orchestrator/   Installable Codex plugin
 ```
 
-The hidden `.agents/` and `.github/agents/` paths are retained because Codex and GitHub use them for discovery and installation.
+The hidden `.agents/plugins/marketplace.json` file is retained because Codex uses it for marketplace discovery and installation.
