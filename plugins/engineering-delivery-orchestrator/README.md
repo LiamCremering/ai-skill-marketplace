@@ -2,6 +2,14 @@
 
 Connects requirements, backlog context, implementation evidence, delivery risks, and team follow-up across SharePoint, GitHub, and Microsoft Teams.
 
+## Purpose: Connected Context
+
+Information required for engineering delivery rarely lives in one place. Requirements and decisions may be stored in SharePoint, implementation details in GitHub, and current discussions or tasks in Microsoft Teams and Planner.
+
+The Engineering Delivery Orchestrator connects these sources for a specific request. It brings together the relevant requirement, decision history, backlog context, code changes, delivery status, and team communication so that users and AI work with the right context instead of isolated fragments.
+
+This connected context supports better decisions, exposes contradictions and missing evidence, and enables consistent follow-up across systems. The agent may prepare or perform changes only where the connected service permits them and only after the required user confirmation. SharePoint remains read-only.
+
 ## Team Deployment
 
 The plugin is designed to be deployed once for an engineering or delivery team. A workspace administrator can make the same agent version, workflows, rules, and integrations available to all authorized members. This gives the team a consistent way to assess delivery readiness, connect requirements to implementation evidence, and coordinate follow-up.
